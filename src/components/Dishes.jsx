@@ -61,8 +61,7 @@ const Dishes = () => {
                  
                             <h4 className='font-medium ml-2'>{`${dish.dish_currency} ${dish.dish_price}`}</h4>
                             </div>
-                            
-                          {/* <p className='ml-3 text-sm mt-1 line-clamp-6 md:text-sm'>{dish.dish_description}</p> */}
+              
                           <p className="ml-0 md:ml-3 mt-1 text-sm sm:text-base md:text-sm line-clamp-3 md:line-clamp-6 break-words">
                                       {dish.dish_description}
                           </p>
