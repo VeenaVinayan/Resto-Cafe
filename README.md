@@ -1,16 +1,35 @@
-# React + Vite
+## Resto Café — Menu and Ordering App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:
+This application focuses on displaying a variety of dishes offered at Resto Café, organized into different categories. Users can easily browse through the menu, explore detailed information about each dish — including its name, description, price, type (veg/non-veg), and calories — and add or remove items from their cart.
 
-Currently, two official plugins are available:
+The app provides a smooth and responsive user experience, ensuring that users can interact seamlessly across desktop and mobile devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features:
+1. View dishes categorized by menu type
+2. Detailed dish information (price, description, availability, calories)
+3.Add and remove dishes from the cart
+4. Real-time cart updates displayed in the navbar
+5. Fully responsive design using React and TailwindCSS
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frontend: React, TailwindCSS
+Routing: React Router
+State Management: Context API
+HTTP Client: Axios
+Build Tool: Vite
 
-## Expanding the ESLint configuration
+## Project Setup
+git clone https://github.com/yourusername/resto-cafe.git
+cd resto-cafe
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Install dependencies
+npm install
+
+## Setup Environment Variables
+VITE_APP_API=api
+
+## Run the App
+
+npm run dev
