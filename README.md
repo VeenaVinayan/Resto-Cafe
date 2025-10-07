@@ -20,7 +20,7 @@ Key Features:
  Build Tool: Vite<br>
 
 ## Project Setup
-git clone https://github.com/yourusername/resto-cafe.git<br>
+git clone https://github.com/VeenaVinayan/Resto-Cafe.git<br>
 cd resto-cafe
 
 ## Install dependencies
